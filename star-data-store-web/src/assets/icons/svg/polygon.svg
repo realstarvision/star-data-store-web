@@ -1,0 +1,8 @@
+<svg width="31" height="30" viewBox="0 0 31 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="polygon selection">
+<g id="Group 17">
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M22.6971 4.57125C22.6971 4.27456 22.5129 4.00906 22.235 3.90516C21.9571 3.80127 21.6439 3.88083 21.4493 4.10476L5.70321 22.2212C5.52045 22.4315 5.47732 22.7291 5.59286 22.9826C5.7084 23.2361 5.96133 23.3988 6.23993 23.3988H17.8074V21.9766H21.2749V18.5091H22.6971L22.6971 4.57125ZM21.2749 21.9766H7.80017L21.2749 6.47341V21.9766Z" fill="white"/>
+<path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M21.2751 23.3987V25.5727H22.6973V23.3987H24.8713V21.9765H22.6973V19.8025H21.2751V21.9765H19.1011V23.3987H21.2751Z" fill="white"/>
+</g>
+</g>
+</svg>

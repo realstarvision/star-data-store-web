@@ -1,0 +1,48 @@
+.register-container{
+  padding:0 10px;
+  margin-bottom: 40px;
+  .icon{
+    width: 15px; 
+    height: 15px;
+    cursor: pointer;
+  }
+  h1{
+    font-size: 48px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .from-item{
+    display: flex;
+    justify-content: center;
+  }
+  .to_login{
+    padding-top: 8px !important;
+    span{
+      font-size: 12px;
+      font-weight: 300px;
+      b{
+        color: #5994FF;
+        cursor: pointer;
+        &:hover{
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+  .verify_text{
+    font-size: 12px;
+    // color:#ffffffb3;
+    color:#FF5959;
+    position: absolute;
+    bottom:  37%;
+    left: 50%;
+    transform: translateX(-50%) !important;
+  }
+}
+

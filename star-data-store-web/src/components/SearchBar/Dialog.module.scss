@@ -1,0 +1,39 @@
+.dialog{
+  height: 100%;
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+  .item{
+    height: 55px;
+    background: #464646;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .confirmBtnBox{
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+    text-align: right;
+    background: #3a3a3a;
+    padding-top: 20px;
+    .btn{
+      margin-left: 10px;
+      margin-right: 20PX;
+      width: 88px;
+      height: 24px;
+      background: #AEBDD8;
+      color: #333333;
+      font-size: 14px;
+      border-radius: 2px;
+      &:hover {
+        background: #AEBDD8;
+      }
+    }
+  }
+}

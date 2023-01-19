@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="stardust-slicing-v2.6" transform="translate(-944.000000, -701.000000)">
+            <g id="upload-file备份-3" transform="translate(874.000000, 674.000000)">
+                <g id="delete-icon" transform="translate(70.000000, 27.000000)">
+                    <rect id="矩形" fill-opacity="0" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="16" height="16"></rect>
+                    <polygon id="路径" stroke="#FFFFFF" points="3 3.33333333 3 14.6666667 13 14.6666667 13 3.33333333"></polygon>
+                    <line x1="6.66666667" y1="6.66666667" x2="6.66666667" y2="11" id="路径" stroke="#FFFFFF"></line>
+                    <line x1="9.33333333" y1="6.66666667" x2="9.33333333" y2="11" id="路径" stroke="#FFFFFF"></line>
+                    <line x1="1.33333333" y1="3.33333333" x2="14.6666667" y2="3.33333333" id="路径" stroke="#FFFFFF"></line>
+                    <polygon id="路径" stroke="#FFFFFF" points="4.33333333 3.33333333 5.42966667 1.33333333 10.5923667 1.33333333 11.6666667 3.33333333"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

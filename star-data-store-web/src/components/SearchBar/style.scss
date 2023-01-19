@@ -1,0 +1,138 @@
+.search-container{
+  width: 100%;
+  /* 搜索条 */
+  .search-box{
+    background: #3A3A3A;
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    padding: 13px 20px;
+    height: 70px;
+    box-sizing: border-box;
+    p{
+      width: 300px;
+      font-size: 12px;
+      font-weight: 400;
+      color: #FFFFFF;
+      // line-height: 22px;
+      letter-spacing: 1px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      span{
+        display: inline-block;
+        margin-bottom: 8px;
+      }
+    }
+    .arrows-box{
+      align-self: center;
+      border-radius: 50%;
+      padding:2px;
+      &:hover{
+        background-color: #494949;
+      }
+      .icon{
+        width: 20px;
+        height: 20px;
+      }
+      .drop-down{
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+    }
+
+    .upwards{
+      transform: rotate(180deg);
+    }
+  }
+  .search-content{
+    padding: 0 20px;
+    background: #3A3A3A;
+    padding-top: 15px;
+    .form-bar{
+      display: flex;
+      align-items: center;
+      padding:5px 0;
+      .label{
+        font-size: 12px !important;
+        color:#fff;
+        .label-title{
+          margin-bottom: 2px;
+        }
+      }
+      .row{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+      .mb{
+        // 
+        &:last-child{
+          margin-bottom: 10px;
+        }
+        color:#FFFFFF;
+        font-size: 14px !important;
+      }
+      .mr{
+        margin-right: 25px;
+      }
+      .data-type-label{
+        align-self: start;
+      }
+            /* 按钮 */
+      .data_set_btn{
+        color: #333333 !important;
+        width: 100% !important;
+        height: 30px !important;
+        background: #AEBDD8 !important;
+        border-radius: 2px !important;
+      }
+      .date{
+        .label{
+          display: flex;
+        }
+        .help{
+          margin-left: 10px;
+          cursor: pointer;
+          width: 12px;
+          height: 12px;
+        }
+      } 
+
+      /* 时间选择器选中字体大小 */
+      .MuiInputBase-input{
+        font-size: 14px ;
+      }
+    }
+
+    .operation-bar{
+      margin-top: 25px;
+      padding-bottom: 15px;
+      .reset_btn{
+        cursor: pointer;
+        color: #fff;
+        font-size: 14px;
+        &:hover{
+          opacity: 0.8;
+        }
+      }
+      .confrom_btn{
+        color: #333333 ;
+        // width: 68px !important;
+        padding: 0 10px ;
+        height: 24px ;
+        background: #AEBDD8 ;
+        border-radius: 2px ;
+      }
+    }
+  }
+  .MuiSlider-thumb{
+    &:hover{
+      opacity: 0.85 !important;
+    }
+  }
+  .MuiSlider-track{
+    background-color:#AEBDD8
+  }
+}
+

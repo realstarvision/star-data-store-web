@@ -1,0 +1,79 @@
+
+
+/*****************抽屉动画  ******************/
+/*入场动画 */
+.DrawerDimation-enter, .DrawerDimation-appear{
+  /*入场动画执行的第一个时刻*/
+  opacity: 0.5;
+  left: -400px !important;
+}
+
+.DrawerDimation-enter-active, .DrawerDimation-appear-active{
+  /*入场动画执行的第二个瞬间一直到执行完成的时刻*/
+  opacity: 1;
+  left: 0 !important;
+  transition: all 0.38s ;
+}
+
+.DrawerDimation-enter-done{
+  /*入场动画执行完成之后*/
+  opacity: 1;
+  left: 0 !important;
+}
+/*出场动画*/
+.DrawerDimation-exit{
+  opacity: 1;
+  left: 0 !important;
+
+}
+.DrawerDimation-exit-active{
+  opacity: 0.5;
+  left:-400px !important;
+  transition: all 0.38s ;
+}
+
+.DrawerDimation-exit-done{
+  opacity: 0.5;
+  left:-400px;
+}
+
+
+
+
+
+/*****************下滑显示动画  ******************/
+/*入场动画 */
+.DeclineIn-enter, .DeclineIn-appear{
+  /*入场动画执行的第一个时刻*/
+  opacity: 0;
+  transform: translateY(-10px) !important;
+}
+
+.DeclineIn-enter-active, .DeclineIn-appear-active{
+  /*入场动画执行的第二个瞬间一直到执行完成的时刻*/
+  opacity: 1;
+  transform: translateY(0px) !important;
+  transition: all 0.38s ;
+}
+
+.DeclineIn-enter-done{
+  /*入场动画执行完成之后*/
+  opacity: 1;
+  transform: translateY(0px) !important;
+}
+/*出场动画*/
+.DeclineIn-exit{
+  opacity: 1;
+  transform: translateY(0px) !important;
+
+}
+.DeclineIn-exit-active{
+  opacity: 0;
+  transform: translateY(-10px) !important;
+  transition: all 0.38s ;
+}
+
+.DeclineIn-exit-done{
+  opacity: 0;
+  transform: translateY(-10px) !important;
+}

@@ -1,0 +1,113 @@
+.order_popupBox-container{
+  max-height: calc(100vh - 150px);
+  overflow: auto;
+  padding-right: 10px;
+  padding-left: 5px;
+  .from-item{
+    position: relative;
+    .area{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .label{
+        font-size: 14px;
+        color:#fff
+      }
+    }
+    .download_btn{
+      height: 32px;
+      padding: 8px;
+      color:#fff;
+      background:#2E6EDF;
+      &:hover{
+        background:#2E6EDF;
+      }
+    }
+    .area_img{
+      width: 100%;
+      height: 200px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      border-radius: 2px;
+    }
+    .grid-item{
+      display: grid;
+      grid-template-columns: auto 1fr;
+      margin-bottom: 15px;
+      .label{
+        font-size: 14px;
+        font-weight: 400;
+        color:#fff;
+        line-height: 22px;
+        min-width: 60px;
+        margin-right: 17px;
+        .deliverableLabel{
+          display: flex;
+          align-items: center;
+        }
+        .help_icon{
+          width: 12px;
+          height: 12px;
+          opacity: 0.6;
+          cursor: pointer;
+          margin-top: 6px;
+          margin-left: 3px;
+          &:hover{
+            opacity: 1;
+          }
+        }
+      }
+      .content{
+        font-size: 14px;
+        font-weight: 400;
+        color: #ededed;
+        line-height: 22px;
+      }
+    }
+    .steps{
+      width: 100%;
+      
+    }
+
+    .btn-bar{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      .cancel_btn,.confirm_btn{
+        width: 104px;
+        height: 32px;
+        border-radius: 2px;
+        padding: 8px;
+        color:#fff;
+      }
+      .cancel_btn{
+        background:#DF2E2E;
+        &:hover{
+          background:#DF2E2E;
+        }
+      }
+      .confirm_btn{
+        background:#2E6EDF;
+        &:hover{
+          background:#2E6EDF;
+        }
+        margin-left: 15px;
+      }
+    }
+   
+  }
+  .MuiTableHead-root{
+    .MuiTableRow-head{
+      .MuiTableCell-root{
+        background-color: #333333;
+      }
+    }
+  }
+  .MuiTableBody-root{
+    .MuiTableRow-root{
+      .MuiTableCell-root{
+        background-color: #464646;
+      }
+    }
+  }
+}

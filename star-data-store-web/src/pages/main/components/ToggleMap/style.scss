@@ -1,0 +1,70 @@
+.hang-tool-btn{
+  position: absolute;
+  right: 20px;
+  bottom:  115px;
+  z-index: 1000;
+  .hang-btn{
+    width: 34px;
+    height: 34px;
+    .icon{
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+
+/* 悬浮按钮样式 */
+.hang-btn{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  background: #323232;
+  border-radius:4px;
+  .icon{
+    color:#fff
+  }
+  &:hover{
+    background: #525252;
+    .icon{
+      color:#AEBDD8
+    }
+  }
+}
+
+/* 切换地图类型悬浮框的样式 */
+.popver-map_type-box{
+  width: 100px;
+  // background: #323232;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  padding: 19px;
+  .map_type-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 15px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+    .map_type-img{
+      cursor: pointer;
+      width: 89px;
+      height: 62px;
+      border: 2px solid transparent;
+      border-radius: 5px;
+      margin: 0 auto;
+      &:hover{
+        opacity: 0.8;
+      }
+    }
+    .map_type-text{
+      color: #fff;
+      font-size: 12px;
+      margin-top: 7px;
+      text-align: center;
+    }
+  }
+}

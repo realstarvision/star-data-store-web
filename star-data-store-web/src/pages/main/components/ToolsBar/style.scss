@@ -1,0 +1,114 @@
+.tools-bar{
+  min-width: 900px;
+  height: 50px;
+  width: 100% !important;
+  margin: 0 !important;
+  // padding: 0 22px;
+  box-sizing: border-box;
+  background-color: #222222;
+  box-shadow: inset 1px 1px 10px #2a2d3c;
+  position:absolute;
+  top: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .tools-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+  .tool_icon-active-box{
+    position: fixed !important;
+    z-index: 1000000;
+    background-color: #3A3A3A;
+    border-radius: 30px;
+    padding-top:3px !important;
+    padding-bottom:3px !important;
+  }
+  .tool_icon-box{
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 5px;
+    &::after{
+      content: "";
+      width: 50px;
+      height: 1px;
+      background-color: #fff;
+      position: absolute;
+      bottom: 0;
+      left: 15px;
+    }
+  }
+  .tool_icon{
+    cursor: pointer; 
+    padding:4px;
+    border: 1px solid transparent;
+    &:hover{
+      background: rgba(174,189,216,0.2);
+      border-radius: 3px;
+      border-color:  #AEBDD8;
+    }
+  }
+  .active{
+    border: 1px solid #AEBDD8;
+    padding:4px;
+    background: rgba(174,189,216,0.2);
+    border-radius: 3px;
+  }
+  .drawer_icon{
+    position: absolute;
+    left: 22px;
+
+    // left:500px
+  }
+  .right{
+    position: absolute;
+    right:  22px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .language{
+      margin-right: 15px;
+    }
+    .help{
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+}
+
+/*****************  动画  ******************/
+/*入场动画 */
+.DrawerIcon-enter, .DrawerIcon-appear{
+  /*入场动画执行的第一个时刻*/
+  width: 0 !important;
+}
+.DrawerIcon-enter-active, .DrawerIcon-appear-active{
+  /*入场动画执行的第二个瞬间一直到执行完成的时刻*/
+  width: 400px !important;
+  transition: all 0.38s ;
+}
+.DrawerIcon-enter-done{
+  /*入场动画执行完成之后*/
+  width: 400px !important;
+}
+/*出场动画*/
+.DrawerIcon-exit{
+  width: 400px !important;
+}
+.DrawerIcon-exit-active{
+  width: 0 !important;
+  transition: all 0.38s ;
+}
+.DrawerIcon-exit-done{
+  width: 0 !important;
+}
+  
+
+

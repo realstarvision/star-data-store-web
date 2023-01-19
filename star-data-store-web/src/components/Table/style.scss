@@ -1,0 +1,146 @@
+.icon{width: 16px;height: 16px;}
+.table{
+  letter-spacing: 0.5px;
+  margin-top: 5;
+  box-shadow: none !important;
+  // box-shadow: none;
+  // border-radius: none !important;
+  // max-height: 1000px;
+  overflow: auto;
+  position: relative;
+  .table-footer{
+    background: #222222;
+    height: 44px;
+    padding: 10px 16px 10px 10px;
+    position: fixed;
+    bottom: -50px;
+    width:calc(100% - 30px);
+    z-index: 999;
+    // margin-top: 30px;
+    .table-footer-box{
+      display: flex;
+      justify-content: end;
+      align-items: center;
+    }
+    .count{
+      font-size: 14px;
+      font-weight: 300;
+      color: #fff;
+      opacity: 0.6;
+
+    }
+    .pagination{
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      color: #999999;
+      opacity: 0.6;
+    }
+  }
+  .table-header{
+    background: #333333 ;
+    border-radius: 0 ;
+    .table-cell{
+      color:#fff;
+      height: 40px ;
+      padding-top:0;
+      padding-bottom:0;
+      font-size: 16px ;
+      font-weight: 300,
+    }
+  }
+  .table-body{
+    background:#222222;
+    position: relative;
+    .second-table{
+      .collapse-box{
+        margin-left: 58px;
+        margin-right: 53px;
+        // background: #2E3343;
+      }
+    }
+    .height-24{
+      min-height: 24px;
+      line-height: 24px;
+    }
+    .body-row{
+      .table-cell{
+        height: 42px ;
+        padding-top:0;
+        padding-bottom:0;
+        font-size: 14px ;
+        font-weight: 300,
+      }
+      &:hover{
+        background: #33333366;
+        .btn{
+          color:#fff
+        }
+
+        // 用于悬浮后标签的颜色变化
+        .active{
+          background:#464F63 !important;
+          .triangle{
+            border-color: transparent #707B91 transparent transparent !important;
+          }
+        }
+      };
+      .btn{
+        font-size: 12px;
+        &:hover{
+          background: none;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+//弹出层框样式
+.popover-content{
+  padding: 8px;
+  display: flex;
+  .info{
+    margin-right: 26px;
+    font-weight: 400;
+    position: relative;
+    .name{
+      font-size: 13px;
+    }
+    .id{
+      font-size: 12px;
+      color: rgba(255,255,255,0.67);
+    }
+  }
+  .download{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    .font{
+      margin-left: 4px;
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+}
+
+
+// 空状态样式
+.empty{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  img{
+    width: 25px;
+    height: 25px;
+  }
+  span{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 8px;
+  }
+}

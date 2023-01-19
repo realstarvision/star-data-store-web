@@ -1,0 +1,267 @@
+{
+  "login": {
+    "language": "english",
+    "title": "Welcome!",
+    "subTitle": "Today will be greet.",
+    "userPlaceholder": "Username",
+    "passwordPlaceholder": "Password",
+    "remember": "Remember me",
+    "loginBtnText": "LOGIN",
+    "dialogTitle": "Login",
+    "noAccount": "Not registered yet?",
+    "TORegiter": "SIGN UP",
+    "inputPlaceholder": {
+      "userName": "Username/Email",
+      "password": "Password"
+    },
+    "helperText": {
+      "sentencedToEmpty": "Please enter your username and password"
+    },
+    "prompt": {
+      "success": "Login success",
+      "error": "The user name or password is incorrect",
+      "existence": "User does not exist",
+      "logoutSuccessMessage": "Exit successfully",
+      "lock": "The account is disabled"
+    }
+  },
+  "register": {
+    "registerBtnText": "REGISTER",
+    "dialogTitle": "Register",
+    "prompt": {
+      "success": "Sign up success",
+      "error": "Sign up error"
+    },
+    "haveAccount": "Already a member?",
+    "TOLogin": "LOGIN",
+    "inputPlaceholder": {
+      "lastName": "Last Name",
+      "email": "Email",
+      "firstName": "First Name",
+      "password": "Password",
+      "company": "Company",
+      "againPassword": "Confirm Password"
+    },
+    "helperText": {
+      "sentencedToEmpty": "These fields cannot be empty",
+      "emailFormat": "Oops, that's not a match.",
+      "doublePassword": "Oops, the password does not match.",
+      "existEmail": "Email already exists"
+    }
+  },
+  "header": {
+    "order": "Order",
+    "userInfo": {
+      "userName": "Username",
+      "email": "Email",
+      "company": "Company",
+      "logoutBtnText": "LOG OUT",
+      "lastName": "Last Name",
+      "firstName": "First Name"
+    }
+  },
+  "ToolBar": {
+    "rectangle": "Rectangle",
+    "Polygon": "Polygon",
+    "Edit": "Edit",
+    "Clear": "Clear",
+    "Language": "Switch to Chinese",
+    "DrawerBtn": "Confirm",
+    "help": "Help"
+  },
+  "guide": {
+    "btnText": "Start",
+    "nextStep": "Next",
+    "promptMessage": "We're here when you need help",
+    "title": "Beginner's guide",
+    "areaLabel": "How to select your area of interest",
+    "fileLabel": "How to upload your files"
+  },
+  "Drawer": {
+    "tabs": {
+      "inventoryData": "INVENTORY DATA",
+      "programmingData": "TASKING"
+    },
+    "searchBar": {
+      "cloudCoverage": "Cloud Coverage",
+      "resolutionRatio": "GSD",
+      "rollSatelliteAngle": "Off-Nadir",
+      "productType": "Product Type",
+      "timeHorizon": "Acquisition Date",
+      "productTypeRadioLabel": {
+        "optics": "Optical",
+        "radar": "SAR",
+        "elevation": "Stereo Image"
+      },
+      "abbreviations": {
+        "cloudCoverage": "Cloud",
+        "resolutionRatio": "GSD",
+        "rollSatelliteAngle": "Off-Nadir",
+        "Date": "Date",
+        "satellite": "Sat"
+      },
+      "tableThLabel": {
+        "cloudCoverage": "Cloud coverage",
+        "resolutionRatio": "GSD",
+        "rollSatelliteAngle": "Off-nadir",
+        "Date": "Acquisition date",
+        "satellite": "Satellite"
+      },
+      "date": {
+        "label": "Date",
+        "startTime": "Start Time",
+        "endTime": "End Time",
+        "startTimeplaceholder": "Select start time",
+        "endTimeplaceholder": "Select end time",
+        "confromBtnText": "Confirm",
+        "cancelBtnText": "Cancel",
+        "nextStep": "Next"
+      },
+      "satellite": "Satellite",
+      "satelliteBtnText": "Select data set",
+      "resetBtnText": "RESET",
+      "confromBtnText": "Confirm",
+      "submitBtnText": "Submit",
+      "filtratelabel": "Save",
+      "dialog": {
+        "title": "Please select data set",
+        "btnText": "Confirm"
+      },
+      "message": {
+        "time": "Please select start time and end time",
+        "satellite": "Please select Satellite data set"
+      }
+    },
+    "date": {
+      "help": "Tasking can only allow assignment at least 7 days in advance."
+    },
+    "message": {
+      "polygonNull": "No area found!",
+      "notLogin": "Not signed in!",
+      "screeningCondition": "Selection criteria not found",
+      "timeOut": "Request timed out. Please try again by limiting the area of interest or time range.",
+      "staleDated": "Expiration of login"
+    },
+    "drawerFooter": {
+      "label": "%s selected",
+      "btn": {
+        "submitOrder": "Place order",
+        "submitCustomOrder": "Customize order"
+      }
+    }
+  },
+  "footer": {
+    "mailbox": "SEND US EMAIL",
+    "phone": "Contact %s"
+  },
+  "Table": {
+    "count": "%s in total",
+    "emptyText": "No data found",
+    "loadComplete": "end of the list"
+  },
+  "allOrders": {
+    "tabs": {
+      "allOrder": "All orders",
+      "confirm": "Waiting for confirmation",
+      "pay": "Waiting for payment",
+      "delivery": "Delivering",
+      "accomplish": "Completed",
+      "cancel": "Canceled"
+    },
+    "table": {
+      "th": {
+        "orderNo": "Order Number",
+        "orderType": "Order Type",
+        "createTime": "Order Time",
+        "orderState": "Order Status",
+        "operating": "Edit",
+        "checkBtnText": "Check deliverables",
+        "cancelBtnText": "Cancel order",
+        "inventoryOrder": "Inventory order",
+        "customizationOrder": "Customized order"
+      }
+    },
+    "backHomepageBtnText": "Home",
+    "deliveryUrlText": "Download link: ",
+    "cancelOrderMessage": "Order canceled",
+    "confirmTitle": "Cancellation of order",
+    "confirmContent": "Whether to cancel the order?",
+    "confirmBtnText": "Ok",
+    "cancelBtnText": "Cancel",
+    "orderInfo": {
+      "columns": {
+        "imageId": "Image ID",
+        "dataSource": "Data source"
+      },
+      "screeningCondition": "Attributes",
+      "dataSource": "Data source",
+      "orderData": "Order data",
+      "orderType": "Order type",
+      "inventoryOrder": "Inventory order",
+      "customizationOrder": "Customized order",
+      "orderId": "Order ID",
+      "cloudCoverage": "Cloud Coverage",
+      "resolutionRatio": "GSD",
+      "rollSatelliteAngle": "Off-Nadir",
+      "productType": "Product type",
+      "timeFrame": "Time interval",
+      "productTypeList": {
+        "optics": "Optical",
+        "radar": "SAR",
+        "elevation": "Stereo Image"
+      }
+    }
+  },
+  "Dialog": {
+    "title": {
+      "customizationDialog": "Please confirm all your customization information",
+      "inventoryDialog": "Please confirm your order",
+      "imageInfo": "Image Info"
+    },
+    "area": "Area",
+    "satelliteName": "Sensor",
+    "dateRange": "Date Range",
+    "resolutionRatio": "GSD",
+    "cloudCoverage": "Cloud Coverage",
+    "remark": "Note",
+    "imageName": "Catalog ID",
+    "centerTime": "Acquisition Date",
+    "image": "Image Preview",
+    "satellite": "Sensor",
+    "date": "Acquisition Date",
+    "rollSatelliteAngle": "Off-Nadir",
+    "message": {
+      "submitOrder": "Order sucessfully submitted",
+      "submitOrderError": "Order submission failure",
+      "inventoryEmpty": "Unfortunately, there is no inventory data that fits the description",
+      "customizationEmpty": "Obtain through tasking"
+    },
+    "input": {
+      "remarkInputPlaceholder": "Please enter your order remarks (optional)"
+    },
+    "btn": {
+      "confirm": "Confirm",
+      "clear": "Clear",
+      "submitOrder": "Submit order"
+    },
+    "empty": "Please add order first",
+    "tableEmpty": "end of the list",
+    "loadingText": "Loading......",
+    "countLabel": "%s selected"
+  },
+  "upload": {
+    "message": {
+      "condition": "File type is not supported. Use one of the following: .kml, .kmz, .shp, or a zipped shapefile.(Zipped shapefile must include .dbf, .shx, and .shp).",
+      "error": "Error processing file. Reload file with only one polygon record per file."
+    },
+    "title": "Upload File",
+    "label": "To upload,Drag and Drop the file or Click here",
+    "promptMessage": "Define an area by uploading a KML/KMZ, or zipped files (at least including .dbf, .shp, .shx, .prj)"
+  },
+  "mapList": {
+    "satelliteMap": "Satellite Map",
+    "streetMap": "街道地图(CN)",
+    "streetMapEN": "Street Map(EN)"
+  },
+  "checkAll": "All"
+}

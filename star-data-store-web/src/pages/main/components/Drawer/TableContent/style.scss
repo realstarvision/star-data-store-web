@@ -1,0 +1,41 @@
+
+.table-container{
+  max-height: 100%; 
+  padding: 0 20px; 
+  box-sizing: border-box;
+  // &::-webkit-scrollbar-thumb {
+  //   background: transparent;
+  // }
+  .TableCell{
+    cursor: pointer;
+    background: #2C2C2C;
+    border-bottom: none !important;
+    padding-left: 0  !important;
+    padding-right: 0  !important;
+    font-size: 13px;
+    // text-align: center !important;
+  }
+  .TableCellHeight{
+    height: 35px !important;
+    padding-top: 0  !important;
+    padding-bottom: 0  !important;
+  }
+  .tableBodyRow{
+    &:hover{
+      .TableCell{
+        background: #333232 !important;
+      }
+    }
+  }
+  
+  .TableCellTHHeight{
+    height: 42px !important;
+    padding-top: 0  !important;
+    padding-bottom: 0  !important;
+  }
+
+  .background{
+    background-color: #2C2C2C;
+  }
+}
+

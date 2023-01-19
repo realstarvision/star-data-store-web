@@ -1,0 +1,267 @@
+{
+  "login": {
+    "language": "中文",
+    "title": "欢迎!",
+    "subTitle": "今天将是美好的一天。",
+    "userPlaceholder": "请输入账号",
+    "passwordPlaceholder": "请输入密码",
+    "remember": "记住账号",
+    "loginBtnText": "登录",
+    "noAccount": "暂无账号？",
+    "TORegiter": "去注册",
+    "dialogTitle": "登录",
+    "inputPlaceholder": {
+      "userName": "请输入用户名/邮箱",
+      "password": "请输入密码"
+    },
+    "helperText": {
+      "sentencedToEmpty": "账号或密码不能为空！"
+    },
+    "prompt": {
+      "success": "登录成功",
+      "error": "用户名或密码错误",
+      "existence": "用户不存在",
+      "lock": "账号已禁用",
+      "logoutSuccessMessage": "退出成功"
+    }
+  },
+  "register": {
+    "registerBtnText": "注册",
+    "dialogTitle": "注册",
+    "prompt": {
+      "success": "注册成功",
+      "error": "注册失败"
+    },
+    "haveAccount": "已有账号？",
+    "TOLogin": "去登录",
+    "inputPlaceholder": {
+      "lastName": "请输入姓氏*",
+      "email": "请输入邮箱*",
+      "firstName": "请输入名称*",
+      "password": "请输入密码*",
+      "company": "请输入公司",
+      "againPassword": "请确认密码*"
+    },
+    "helperText": {
+      "sentencedToEmpty": "标星项不能为空!",
+      "emailFormat": "邮箱格式不正确!",
+      "doublePassword": "两次密码不一样!",
+      "existEmail": "邮箱已存在"
+    }
+  },
+  "header": {
+    "order": "订单信息",
+    "userInfo": {
+      "userName": "姓名",
+      "email": "邮箱",
+      "company": "公司",
+      "logoutBtnText": "退出登录",
+      "lastName": "姓氏",
+      "firstName": "名称"
+    }
+  },
+  "ToolBar": {
+    "rectangle": "矩形选区",
+    "Polygon": "多边形选区",
+    "Edit": "编辑选区",
+    "Clear": "清除选区",
+    "Language": "切换到英文",
+    "DrawerBtn": "查看您已选择的数据",
+    "help": "帮助"
+  },
+  "guide": {
+    "btnText": "开始使用",
+    "nextStep": "下一步",
+    "promptMessage": "以后可以在这里找到我哦～",
+    "title": "操作引导",
+    "areaLabel": "如何选择想要的区域范围",
+    "fileLabel": "如何上传想要的文件类型"
+  },
+  "Drawer": {
+    "tabs": {
+      "inventoryData": "库存数据搜索",
+      "programmingData": "编程数据定制"
+    },
+    "searchBar": {
+      "cloudCoverage": "云量",
+      "resolutionRatio": "分辨率",
+      "rollSatelliteAngle": "侧摆角",
+      "productType": "数据类型",
+      "timeHorizon": "时间范围",
+      "productTypeRadioLabel": {
+        "optics": "光学数据",
+        "radar": "雷达数据",
+        "elevation": "多像对数据"
+      },
+      "abbreviations": {
+        "cloudCoverage": "云量",
+        "resolutionRatio": "分辨率",
+        "rollSatelliteAngle": "侧摆角",
+        "Date": "日期",
+        "satellite": "卫星"
+      },
+      "tableThLabel": {
+        "cloudCoverage": "云量",
+        "resolutionRatio": "分辨率",
+        "rollSatelliteAngle": "侧摆角",
+        "Date": "日期",
+        "satellite": "卫星"
+      },
+      "date": {
+        "label": "日期",
+        "startTime": "开始时间",
+        "endTime": "结束时间",
+        "startTimeplaceholder": "请选择开始时间",
+        "endTimeplaceholder": "请选择结束时间",
+        "nextStep": "下一步",
+        "confromBtnText": "确认",
+        "cancelBtnText": "取消"
+      },
+      "satellite": "卫星",
+      "satelliteBtnText": "选择数据集",
+      "resetBtnText": "重置",
+      "confromBtnText": "确认",
+      "submitBtnText": "提交",
+      "filtratelabel": "记住本次筛选条件",
+      "dialog": {
+        "title": "请选择您所需的数据集",
+        "btnText": "确认"
+      },
+      "message": {
+        "time": "开始时间或结束时间不能为空",
+        "satellite": "卫星数据集不能为空"
+      }
+    },
+    "date": {
+      "help": "由于编程影像拍摄周期较长，导致您选择起始时间只能在七天后选择，给您带来不便，敬请谅解～"
+    },
+    "message": {
+      "polygonNull": "未选择区域！",
+      "notLogin": "未登录",
+      "screeningCondition": "未选择筛选条件",
+      "timeOut": "请求超时，可通过缩小地理范围或时间范围限制，请再试一次。",
+      "staleDated": "登录过期"
+    },
+    "drawerFooter": {
+      "label": " 已选择%s条数据",
+      "btn": {
+        "submitOrder": "提交订单",
+        "submitCustomOrder": "提交定制化订单"
+      }
+    }
+  },
+  "footer": {
+    "mailbox": "给我们发邮箱",
+    "phone": "拨打%s"
+  },
+  "Table": {
+    "count": "共%s条",
+    "emptyText": "暂无数据",
+    "loadComplete": "暂无更多"
+  },
+  "allOrders": {
+    "tabs": {
+      "allOrder": "所有订单",
+      "confirm": "待确认",
+      "pay": "待支付",
+      "delivery": "待交付",
+      "accomplish": "已完成",
+      "cancel": "已取消"
+    },
+    "table": {
+      "th": {
+        "orderNo": "订单编号",
+        "orderType": "订单类型",
+        "createTime": "下单时间",
+        "orderState": "订单状态",
+        "operating": "操作",
+        "checkBtnText": "查看交付",
+        "cancelBtnText": "取消订单",
+        "inventoryOrder": "库存订单",
+        "customizationOrder": "定制订单"
+      }
+    },
+    "backHomepageBtnText": "返回主页",
+    "deliveryUrlText": "交付链接：",
+    "cancelOrderMessage": "订单已取消",
+    "confirmTitle": "取消订单",
+    "confirmContent": "是否取消订单？",
+    "confirmBtnText": "确认",
+    "cancelBtnText": "取消",
+    "orderInfo": {
+      "columns": {
+        "imageId": "图片ID",
+        "dataSource": "数据源"
+      },
+      "screeningCondition": "筛选条件",
+      "dataSource": "数据源",
+      "orderData": "订单数据",
+      "orderType": "订单类型",
+      "inventoryOrder": "库存订单",
+      "customizationOrder": "定制订单",
+      "orderId": "订单ID",
+      "cloudCoverage": "云量",
+      "resolutionRatio": "分辨率",
+      "rollSatelliteAngle": "侧摆角",
+      "productType": "数据类型",
+      "timeFrame": "时间范围",
+      "productTypeList": {
+        "optics": "光学数据",
+        "radar": "雷达数据",
+        "elevation": "多相对数据"
+      }
+    }
+  },
+  "Dialog": {
+    "title": {
+      "customizationDialog": "请确认您所需要定制化数据",
+      "inventoryDialog": "请确认您的订单",
+      "imageInfo": "图像信息"
+    },
+    "area": "所选区域",
+    "satelliteName": "卫星名",
+    "dateRange": "日期范围",
+    "resolutionRatio": "分辨率",
+    "cloudCoverage": "云量",
+    "remark": "备注",
+    "imageName": "图像名称",
+    "centerTime": "拍摄时间",
+    "image": "缩略图",
+    "satellite": "卫星",
+    "date": "日期",
+    "message": {
+      "submitOrder": "订单提交成功！",
+      "submitOrderError": "订单提交失败！",
+      "inventoryEmpty": "抱歉，暂无您所需的数据～",
+      "customizationEmpty": "即将为您定制编程数据～"
+    },
+    "rollSatelliteAngle": "侧摆角",
+    "input": {
+      "remarkInputPlaceholder": "请输入您的订单备注（选填）"
+    },
+    "btn": {
+      "confirm": "确认",
+      "clear": "清除",
+      "submitOrder": "提交订单"
+    },
+    "empty": "请前往添加订单!",
+    "tableEmpty": "暂无更多数据",
+    "loadingText": "加载中......",
+    "countLabel": "%s条已选择"
+  },
+  "upload": {
+    "message": {
+      "condition": "请使用下列文件:.kml、.kmz、.shp或压缩的shapefile。（压缩的shapefile必须包含.dbf， .shx和.shp。）",
+      "error": " 文件解析失败，每个文件只有一个多边形记录。"
+    },
+    "title": "上传文件",
+    "label": "点击或将文件拖入此区域支持扩展名.kmz, .kml, .zip",
+    "promptMessage": "支持扩展名.kmz, .kml, .zip(至少包含.dbf, .shp, .shx和.prj)"
+  },
+  "mapList": {
+    "satelliteMap": "卫星地图",
+    "streetMap": "街道地图(CN)",
+    "streetMapEN": "Street Map(EN)"
+  },
+  "checkAll": "全选"
+}

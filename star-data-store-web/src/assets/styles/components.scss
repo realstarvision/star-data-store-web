@@ -1,0 +1,6 @@
+/* span不换行 */
+@mixin white-space-nowrap {
+  // display: inline-block;
+  white-space:nowrap;
+  overflow: hidden;
+}

@@ -1,0 +1,39 @@
+.popupBox-container{
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  .popupBox-content{
+    background: #3a3a3a;
+    border-radius: 4px;
+    padding: 20px;
+    position: absolute;
+    .title_bar{
+      margin-bottom: 15px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      line-height: 22px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .close{
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        z-index: 999;
+        &:hover{
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}
+.popupBox-center{
+  top: 50%;
+  left:50%;
+  transform: translate(-50%);
+}
